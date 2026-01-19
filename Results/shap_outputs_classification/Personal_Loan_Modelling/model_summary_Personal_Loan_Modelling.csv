@@ -1,0 +1,16 @@
+model,accuracy,best_params,training_time,shap_time
+LogisticRegression,0.9514,{'clf__C': 10},2.515587091445923,0.0022559165954589844
+RidgeClassifier,0.9344,{'clf__alpha': 10.0},1.401153802871704,0.0008990764617919922
+SGDClassifier,0.948,"{'clf__alpha': 0.001, 'clf__loss': 'hinge'}",1.4504296779632568,0.001260995864868164
+SVC,0.9524,"{'clf__C': 0.1, 'clf__kernel': 'linear'}",1.5790045261383057,0.0011756420135498047
+LinearSVC,0.9512,{'clf__C': 0.1},0.09183406829833984,0.0011751651763916016
+DecisionTree,0.9864,{'clf__max_depth': 5},0.11296582221984863,0.08296513557434082
+RandomForest,0.9966,"{'clf__max_depth': None, 'clf__n_estimators': 100}",2.5374670028686523,29.930872201919556
+ExtraTrees,0.9952,"{'clf__max_depth': None, 'clf__n_estimators': 200}",4.209031820297241,150.11046028137207
+GradientBoosting,0.9968,"{'clf__learning_rate': 0.1, 'clf__n_estimators': 200}",7.309091329574585,13.350090503692627
+AdaBoost,0.9674,{'clf__n_estimators': 50},1.6833672523498535,499.4672176837921
+XGBoost,0.997,{'clf__n_estimators': 200},2.0284152030944824,10.15753698348999
+CatBoost,0.9974,"{'clf__depth': 6, 'clf__iterations': 200}",13.04341745376587,19.755203008651733
+KNN,0.9676,{'clf__n_neighbors': 3},1.601149320602417,7138.397547006607
+GaussianNB,0.8822,{},1.4036109447479248,17.042437076568604
+MLP,0.9906,"{'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (50,)}",42.06295585632324,42.722567558288574
