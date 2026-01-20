@@ -29,25 +29,26 @@ Our goal is to provide operational guidance for selecting interpretable and comp
 This project uses a variety of classification and regression datasets to evaluate explanation interchangeability across models.
 
 ### Classification Datasets
+### Classification Datasets
 
-| Dataset        | Instances ($m$) | Features ($d$) | Classes ($|\mathcal{Y}|$) |
-|----------------|----------------|----------------|---------------------------|
-| iris           | 150            | 5              | 3                         |
-| wine           | 178            | 14             | 3                         |
-| breast-cancer  | 286            | 10             | 2                         |
-| diabetes       | 768            | 9              | 2                         |
-| vehicle        | 846            | 19             | 4                         |
-| Schelling      | 1000           | 5              | 2                         |
-| cmc            | 1473           | 10             | 3                         |
-| car            | 1728           | 7              | 4                         |
-| hypothyroid    | 3163           | 26             | 2                         |
-| chess          | 3196           | 37             | 2                         |
-| splice         | 3188           | 61             | 3                         |
-| churn          | 5000           | 21             | 2                         |
-| Loan_Modelling | 5000           | 13             | 2                         |
-| mushroom       | 8124           | 23             | 2                         |
-| Adult          | 48842          | 15             | 2                         |
-| shuttle        | 58000          | 10             | 5                         |
+| Dataset        | Instances (m) | Features (d) | Classes |
+|----------------|---------------|--------------|---------|
+| iris           | 150           | 5            | 3       |
+| wine           | 178           | 14           | 3       |
+| breast-cancer  | 286           | 10           | 2       |
+| diabetes       | 768           | 9            | 2       |
+| vehicle        | 846           | 19           | 4       |
+| Schelling      | 1000          | 5            | 2       |
+| cmc            | 1473          | 10           | 3       |
+| car            | 1728          | 7            | 4       |
+| hypothyroid    | 3163          | 26           | 2       |
+| chess          | 3196          | 37           | 2       |
+| splice         | 3188          | 61           | 3       |
+| churn          | 5000          | 21           | 2       |
+| Loan_Modelling | 5000          | 13           | 2       |
+| mushroom       | 8124          | 23           | 2       |
+| Adult          | 48842         | 15           | 2       |
+| shuttle        | 58000         | 10           | 5       |
 
 ### Regression Datasets
 
