@@ -38,13 +38,17 @@ Our goal is to provide operational guidance for selecting interpretable and comp
 ## Repository Structure
 
 Figures/ # Plots and visualizations
+
 Results/ # Key output files
+
 Run_tests/ # Scripts to run experiments
+
 Schelling_ABS/ # Schelling model experiments
+
 post_procs/ # Post-processing scripts
-README.md # This file
-LICENSE # BSD-3-Clause license
+
 XAI_and_reco_SHAP-full_paper.pdf # Main paper
+
 XAI_and_reco_SHAP-Supplementary_materials.pdf # Supplementary materials
 
 
