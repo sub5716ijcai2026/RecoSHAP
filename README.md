@@ -80,6 +80,50 @@ This project uses a variety of classification and regression datasets to evaluat
 3. Empirical evidence that **lightweight models** often provide explanations nearly identical to complex ensembles  
 4. Practical framework to select a **centroid model** balancing interpretability, robustness, and computational efficiency
 
+## Figures
+
+All figures from our experiments are included below, organized by dataset type and task.  
+
+### Classification
+
+| Figure | Description |
+|--------|-------------|
+| ![NDCG Median All](Figures/Classification/ndcg_all_v2_class_median.png) | NDCG median values for all classification datasets |
+| ![NDCG Small Dataset](Figures/Classification/ndcg_small_dataset_class.png) | NDCG values for small classification datasets |
+| ![NDCG Big Dataset](Figures/Classification/ndcg_big_dataset_class.png) | NDCG values for large classification datasets |
+| ![Pareto All](Figures/Classification/out_pareto_all_class_2.png) | Pareto front of all classification datasets |
+| ![Pareto Small](Figures/Classification/out_pareto_class_small.png) | Pareto front for small classification datasets |
+| ![Pareto Big](Figures/Classification/out_pareto_class_big.png) | Pareto front for large classification datasets |
+
+### Regression
+
+| Figure | Description |
+|--------|-------------|
+| ![NDCG All](Figures/Regression/ndcg_all.png) | NDCG values for all regression datasets |
+| ![NDCG Small](Figures/Regression/ndcg_small.png) | NDCG for small regression datasets |
+| ![NDCG Medium](Figures/Regression/ndcg_medium.png) | NDCG for medium regression datasets |
+| ![NDCG High](Figures/Regression/ndcg_high.png) | NDCG for high regression datasets |
+| ![NDCG Very High](Figures/Regression/ndcg_very_high.png) | NDCG for very high regression datasets |
+| ![NDCG Median](Figures/Regression/ndcg_median_reg.png) | Median NDCG for regression datasets |
+| ![Pareto All](Figures/Regression/out_pareto_all.png) | Pareto front of all regression datasets |
+| ![Pareto Low](Figures/Regression/out_pareto_low.png) | Pareto front for low dataset size |
+| ![Pareto Medium](Figures/Regression/out_pareto_medium.png) | Pareto front for medium dataset size |
+| ![Pareto High](Figures/Regression/out_pareto_high.png) | Pareto front for high dataset size |
+| ![Pareto Very High](Figures/Regression/out_pareto_very_high.png) | Pareto front for very high dataset size |
+
+### Schelling
+
+| Figure | Description |
+|--------|-------------|
+| ![RF Convergence](Figures/Schelling/imp_RF_conv.png) | Random Forest feature importance for convergence |
+| ![RF Sparsity](Figures/Schelling/imp_RF_sparsity.png) | Random Forest feature importance for sparsity |
+| ![kNN Convergence](Figures/Schelling/imp_knn_conv.png) | k-Nearest Neighbors feature importance for convergence |
+| ![kNN Sparsity](Figures/Schelling/imp_knn_spar.png) | k-Nearest Neighbors feature importance for sparsity |
+| ![NDCG Convergence](Figures/Schelling/plot_ndcg_conv.jpg) | NDCG for convergence predictions |
+| ![NDCG Sparsity](Figures/Schelling/plot_ndcg_spars.jpg) | NDCG for sparsity predictions |
+| ![Dendrogram](Figures/Schelling/dendogram_ndcg_spars.jpg) | Hierarchical clustering of models based on SHAP NDCG |
+
+
 ---
 
 ## Repository Structure
